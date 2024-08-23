@@ -42,6 +42,12 @@
               btnBg: "#ABEF5F",
               btnBg2: "rgba(171, 239, 95, 0.50)",
               paragraph: "#737373",
+              sectionBg: '#f4f4f4',
+              workBox: "#E7C1D3",
+              workBox2: "#EFDA6E",
+              workBox3: "#A4DAC3",
+              workBox4: "#77AAEA",
+
             },
           },
         },
@@ -166,7 +172,7 @@
 
     <main>
       <!-- About Section -->
-      <section class="py-14 bg-[#f4f4f4]">
+      <section class="py-14 bg-sectionBg">
         <div class="container mx-auto md:px-10 px-3">
           <div class="grid lg:grid-cols-2 gap-8">
             <!-- About Title -->
@@ -231,9 +237,9 @@
       </section>
 
       <!-- Count Section -->
-      <section class="py-14 bg-[#f4f4f4]">
+      <section class="pb-11 bg-sectionBg">
         <div class="container mx-auto md:px-10 px-3">
-          <div class="bg-white py-10 rounded-xl grid md:grid-cols-4 gap-y-8">
+          <div class="bg-white py-10 rounded-xl grid md:grid-cols-2 lg:grid-cols-4 gap-y-8">
             <div>
               <div class="flex flex-col text-center">
                 <i class="fa-solid fa-message mb-1 text-xl text-paragraph"></i>
@@ -270,6 +276,65 @@
           </div>
         </div>
       </section>
+
+      <!-- Works Section -->
+       <section class="bg-sectionBg pb-11">
+          <div class="container mx-auto md:px-10 px-3">
+              <!-- Work box title -->
+              <div class="text-center mb-10">
+
+                <div>
+                  <button
+                class="btn bg-white rounded-full hover:bg-white border-none font-black mb-5"
+              >
+                <span><i class="fa-solid fa-arrow-right text-sm"></i></span>
+                How We Works
+              </button>
+                </div>
+                <h1 class="text-xl md:text-3xl font-extrabold mb-3">Our Work Process</h1>
+                <p class="md:w-6/12 mx-auto">We begin by deeply understanding your requirements, goals, and vision. Whether it's content creation, research, or problem-solving, we take the time to ensure we're aligned with your objectives.</p>
+
+              </div>
+
+              <!-- Work box card -->
+               <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                  <div class="card bg-workBox">
+                    <div class="card-body">
+                      <span><i class="fa-solid fa-lightbulb text-4xl text-gray-600"></i></span>
+                      <h2 class="card-title font-extrabold text-gray-600">Concept</h2>
+                      <p class="text-gray-600">A moment of reflection or appreciation for food. overlooking the countryside through a large window</p>
+                    </div>
+
+                  </div>
+                  <div class="card bg-workBox2">
+                    <div class="card-body">
+                      <i class="fa-solid fa-swatchbook text-4xl text-gray-600"></i>
+                      <h2 class="card-title font-extrabold text-gray-600">Design Process</h2>
+                      <p class="text-gray-600">Whether the barn house will be a primary residence, a retreat, or a creative space, the purpose will guide the overall design.</p>
+                    </div>
+
+                  </div>
+                  <div class="card bg-workBox3">
+                    <div class="card-body">
+                      <i class="fa-regular fa-eye text-4xl text-gray-600"></i>
+                      <h2 class="card-title font-extrabold">Supervision</h2>
+                      <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+
+                  </div>
+                  <div class="card bg-workBox4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-calculator text-4xl text-gray-600"></i>
+                      <h2 class="card-title font-extrabold">Budget Planning</h2>
+                      <p>Determine your overall budget for the project, including all costs from design to completion.</p>
+                    </div>
+
+                  </div>
+
+               </div>
+          </div>
+       </section>
     </main>
   </body>
 </html>
