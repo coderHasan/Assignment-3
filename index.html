@@ -38,6 +38,9 @@
             displayFont: ["Manrope", "sans-serif"],
           },
           extend: {
+            backgroundImage: {
+              heroPattern: "url('./assets/bg.jpg')"
+            },
             colors: {
               btnBg: "#ABEF5F",
               btnBg2: "rgba(171, 239, 95, 0.50)",
@@ -595,6 +598,82 @@
                         </div>
                   </div>
               
+            </div>
+         </section>
+
+         <!--discuss Next Project -->
+         <section class="py-14 bg-heroPattern bg-no-repeat bg-center bg-cover">
+            <div class="container mx-auto md:px-10 px-3">
+                <div class="text-center mb-10">
+                    <button
+                    class="btn bg-btnBg3 rounded-full hover:bg-btnBg3  border-none font-extrabold mb-5"
+                  >
+                    <span><i class="fa-solid fa-arrow-right text-sm"></i></span>
+                    Let's Connect
+                  </button>
+                    <h1 class="md:text-4xl text-2xl font-extrabold mb-3">Lat's Discuss Next Project</h1>
+                  <p class="text-gray-500 md:w-7/12 mx-auto">
+                    Let's Discuss Next Project is an innovative platform designed to foster collaboration and creativity. This initiative invites individuals and teams to come together and brainstorm ideas for upcoming projects. 
+                  </p>
+              </div>
+
+              <!-- Input fild -->
+                <div class="flex flex-col md:grid md:grid-cols-2 gap-5 ">
+
+                    <div> 
+                      <input
+                      type="text"
+                      placeholder="First Name*"
+                      class="input bg-white rounded-full w-full" />
+                    </div>
+                    <div> 
+                      <input
+                      type="text"
+                      placeholder="Last Name*"
+                      class="input bg-white rounded-full w-full" />
+                    </div>
+                    <div> 
+                      <input
+                      type="text"
+                      placeholder="Phone Number*"
+                      class="input bg-white rounded-full w-full" />
+                    </div>
+                    <div> 
+                      <input
+                      type="text"
+                      placeholder="Email Number*"
+                      class="input bg-white rounded-full w-full" />
+                    </div>
+                    <div class="col-span-2"> 
+                      <!-- <input
+                      type="Write your mesage here"
+                      placeholder="Type here"
+                      class="input bg-white rounded-4xl w-full h-28" /> -->
+                      <label class="form-control">                      
+                        <textarea 
+                        class="textarea h-36 rounded-2xl bg-white" 
+                        placeholder="Write  your message here"></textarea>
+                      </label>
+
+                    </div>
+                    <div class="col-span-2"> 
+                      <div
+                          class="navbar-end flex items-center gap-3 bg-btnBg justify-center py-2 col-span-2 rounded-full w-full"
+                        >
+                          <a class="font-black text-sm">Book Consult</a>
+                          <span
+                            class="btn-circle items-center justify-center flex bg-black hover:bg-btn1 border-none w-8 h-8"
+                          >
+                            <i
+                              class="fa-solid fa-arrow-right text-white text-sm -rotate-45"
+                            ></i>
+                          </span>
+                      </div>
+
+                    </div>
+
+                </div>
+
             </div>
          </section>
   </body>
